@@ -50,11 +50,12 @@ export default function ServiceSidebar() {
         <div className="relative z-10 flex flex-col items-center">
           <div className="mb-6 inline-block">
             <Image 
-              src="/images/quicka2.png" 
+              src="/images/Quicka2.svg" 
               alt="Quicka Nig Ltd Logo" 
               width={100} 
               height={40} 
               className="w-[80px] h-auto object-contain"
+              unoptimized
             />
           </div>
           <h3 className="text-2xl font-bold mb-6 drop-shadow-sm leading-tight">

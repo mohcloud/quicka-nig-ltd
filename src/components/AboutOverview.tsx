@@ -39,7 +39,7 @@ export default function AboutOverview() {
              <div className="absolute inset-0 flex items-center justify-center z-10">
                 <div className="flex items-center justify-center transform drop-shadow-lg">
                    <Image 
-                     src="/images/quicka2.png" 
+                     src="/images/Quicka2.svg" 
                      alt="Quicka Nig Ltd Logo" 
                      width={100} 
                      height={40} 

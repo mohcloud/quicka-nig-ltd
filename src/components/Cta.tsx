@@ -13,7 +13,7 @@ export default function Cta() {
             Our logistics experts are standing by to streamline your supply chain.
           </p>
         </div>
-        <Link href="/contact" className="bg-brand-primary hover:bg-brand-primary/80 text-white border border-white/20 rounded-md px-10 py-6 font-semibold shadow-lg text-center flex items-center justify-center transition-colors">
+        <Link href="/contact" className="bg-brand-primary hover:bg-brand-primary/80 text-white border border-white/20 rounded-md px-8 py-3 font-semibold shadow-lg text-center flex items-center justify-center transition-colors">
           Get A Quote
         </Link>
       </div>

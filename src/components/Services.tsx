@@ -41,7 +41,7 @@ export default function Services() {
             <div className="w-10 h-0.5 bg-brand-accent"></div>
             What We Do
           </div>
-          <h2 className="text-3xl md:text-5xl font-extrabold text-brand-primary leading-tight mb-8 text-balance">
+          <h2 className="text-3xl lg:text-4xl font-extrabold text-brand-primary leading-snug mb-6 text-balance">
             Built on Integrity, Driven by Efficiency, Delivered with Promptness.
           </h2>
           <Button className="bg-brand-primary hover:bg-brand-primary/90 text-white rounded-md px-8 py-6 font-semibold">

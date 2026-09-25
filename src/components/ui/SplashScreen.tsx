@@ -56,12 +56,13 @@ export default function SplashScreen() {
           {/* The truck itself rumbles up and down slightly to simulate driving */}
           <div className="animate-rumble">
             <Image 
-              src="/images/quicka2.png" 
+              src="/images/Quicka2.svg" 
               alt="Quicka Nig Ltd Logo" 
               width={160} 
               height={50} 
               className="w-20 md:w-32 h-auto object-contain drop-shadow-xl"
               priority
+              unoptimized
             />
           </div>
         </div>

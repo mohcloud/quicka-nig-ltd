@@ -14,7 +14,7 @@ export default function Footer() {
         <div className="flex flex-col gap-6">
           <Link href="/" className="inline-block w-max">
             <Image 
-              src="/images/quicka2.png" 
+              src="/images/Quicka2.svg" 
               alt="Quicka Nig Ltd Logo" 
               width={150} 
               height={50} 

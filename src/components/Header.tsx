@@ -52,12 +52,13 @@ export default function Header() {
         <div className="flex items-center h-full">
           <Link href="/" className="flex items-center mr-2 sm:mr-8 cursor-pointer group">
             <Image 
-              src="/images/quicka2.png" 
+              src="/images/Quicka2.svg" 
               alt="Quicka Nig Ltd Logo" 
               width={150} 
               height={50} 
-              className="w-[70px] sm:w-[100px] h-auto object-contain bg-white rounded-md p-1"
+              className="w-[70px] sm:w-[100px] h-auto object-contain"
               priority
+              unoptimized
             />
           </Link>
 
@@ -144,11 +145,12 @@ export default function Header() {
           <div className="flex justify-between items-center mb-8">
             <Link href="/" onClick={() => setIsMobileMenuOpen(false)}>
               <Image 
-                src="/images/quicka2.png" 
+                src="/images/Quicka2.svg" 
                 alt="Quicka Nig Ltd Logo" 
                 width={120} 
                 height={40} 
                 className="w-[70px] h-auto object-contain"
+                unoptimized
               />
             </Link>
             <Button
