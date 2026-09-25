@@ -14,10 +14,10 @@ export default function AboutOverview() {
             Who We Are & <br/> What <span className="text-brand-primary">We do</span>
           </h2>
           <p className="text-gray-600 mb-6 leading-relaxed">
-            Quicka International Limited is a premier logistics and supply chain conglomerate headquartered in the bustling metropolis of Lagos, Nigeria. We have built a hard-earned reputation across West Africa for delivering excellence, innovative business practices, and unmatched service quality.
+            Quicka International Limited is a logistics and supply chain company based in Port Harcourt, River state Nigeria. Over the years, we've built a solid reputation across West Africa for reliable service, sound business practices, and consistent quality.
           </p>
           <p className="text-gray-600 leading-relaxed">
-            Guided by the vast knowledge and expertise of our leadership team, we transform complex supply chain challenges into seamless growth opportunities for our clients. We leverage a wide variety of technical solutions to streamline port operations, empower local trade, and manage your time-critical logistics with absolute precision.
+            Our leadership team brings deep, hands-on knowledge of the industry to every job. That experience is what turns complicated supply chain problems into real, workable solutions for our clients. We combine practical port operations expertise with a strong understanding of local trade, so your time-critical shipments move on schedule, every time.
           </p>
         </div>
 
@@ -37,8 +37,14 @@ export default function AboutOverview() {
              />
              {/* Center Logo Box */}
              <div className="absolute inset-0 flex items-center justify-center z-10">
-                <div className="w-20 h-20 sm:w-24 sm:h-24 bg-white/90 backdrop-blur-sm shadow-xl flex items-center justify-center rotate-45 transform border border-gray-100">
-                   <span className="text-3xl font-black text-brand-accent -rotate-45">Q</span>
+                <div className="bg-white/90 backdrop-blur-sm shadow-xl flex items-center justify-center transform border border-gray-100 p-2 rounded">
+                   <Image 
+                     src="/images/quicka1.png" 
+                     alt="Quicka Nig Ltd Logo" 
+                     width={100} 
+                     height={40} 
+                     className="w-[80px] sm:w-[100px] h-auto object-contain"
+                   />
                 </div>
              </div>
           </div>
@@ -103,7 +109,7 @@ export default function AboutOverview() {
                <div>
                  <h3 className="text-xl font-bold text-brand-accent mb-2">Customer Service</h3>
                  <p className="text-gray-600 text-sm leading-relaxed">
-                   Providing life-saving/essential products, delivered when and where needed, to serve and satisfy our customers. Accordingly, our customers' trust does not fall short out of empathy, pride, and harmony.
+                   We deliver essential goods when and where our customers need them. That reliability is what earns their trust and keeps them coming back.
                  </p>
                </div>
             </div>
@@ -115,7 +121,7 @@ export default function AboutOverview() {
                <div>
                  <h3 className="text-xl font-bold text-brand-accent mb-2">Entrepreneurship</h3>
                  <p className="text-gray-600 text-sm leading-relaxed">
-                   We create openly and face our environment by swiftly employing state-of-the-art methods to reach our market leadership.
+                   We stay ahead by adopting new methods and technology quickly, rather than waiting for the market to catch up around us.
                  </p>
                </div>
             </div>
@@ -127,7 +133,7 @@ export default function AboutOverview() {
                <div>
                  <h3 className="text-xl font-bold text-brand-accent mb-2">Excellence</h3>
                  <p className="text-gray-600 text-sm leading-relaxed">
-                   We are a large organization, working together to deliver the best products and services for our valuable customers and stakeholders. We demonstrate teamwork, timely delivery of consignments, respect, and meritocracy.
+                   We're a large team working toward one goal: the best possible service for our customers and stakeholders. That means teamwork, on-time delivery, respect, and rewarding people on merit.
                  </p>
                </div>
             </div>
@@ -139,7 +145,7 @@ export default function AboutOverview() {
                <div>
                  <h3 className="text-xl font-bold text-brand-accent mb-2">Leadership</h3>
                  <p className="text-gray-600 text-sm leading-relaxed">
-                   We thrive on being leaders in our business, markets, and communities. To drive this, we focus on continuous improvement, partnerships, and professionalism.
+                   We aim to lead, not just compete, in our business, our markets, and our communities. We get there through continuous improvement, strong partnerships, and professionalism.
                  </p>
                </div>
             </div>

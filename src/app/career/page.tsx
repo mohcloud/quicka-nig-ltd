@@ -315,7 +315,7 @@ export default function CareerPage() {
                <h3 className="text-xl font-extrabold mb-6">Contact Info:-</h3>
                
                <div className="flex flex-col gap-4 text-sm font-semibold">
-                 <p>Phone: +(234) 806 513 3030</p>
+                 <p>Phone: +234 813 885 3645</p>
                  <p>Email: info@quickanig.com</p>
                </div>
              </div>

@@ -52,7 +52,7 @@ export default function ContactPage() {
               <div>
                 <h3 className="text-xl font-bold text-brand-accent mb-2">Phone</h3>
                 <p className="text-gray-500 text-sm">
-                  +(234) 806 513 3030
+                  +234 813 885 3645
                 </p>
               </div>
             </div>
@@ -73,7 +73,7 @@ export default function ContactPage() {
         </div>
 
         {/* Right Column: Contact Form */}
-        <div className="lg:w-1/2 bg-white p-10 rounded-md border border-gray-100 shadow-sm flex flex-col justify-center">
+        <div id="contact-form" className="lg:w-1/2 bg-white p-10 rounded-md border border-gray-100 shadow-sm flex flex-col justify-center">
           <h2 className="text-3xl font-extrabold text-brand-accent mb-8 text-center">Write Us A Message</h2>
           
           <form className="flex flex-col gap-6">

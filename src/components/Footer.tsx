@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { Mail, MapPin, Phone } from "lucide-react";
+import Image from "next/image";
 
 export default function Footer() {
   return (
@@ -11,15 +12,15 @@ export default function Footer() {
 
         {/* Brand Col */}
         <div className="flex flex-col gap-6">
-          <div className="flex items-center gap-3">
-            <div className="w-10 h-10 bg-white rounded-md flex items-center justify-center text-brand-primary font-bold text-xl overflow-hidden">
-              <span className="transform -skew-x-12 font-black text-2xl">Q</span>
-            </div>
-            <div className="flex flex-col">
-              <span className="font-extrabold text-xl leading-none tracking-tight">QUICKA NIG LTD</span>
-              <span className="text-[10px] uppercase tracking-widest text-brand-primary font-semibold">International Logistics</span>
-            </div>
-          </div>
+          <Link href="/" className="inline-block bg-white p-2 rounded-md w-max">
+            <Image 
+              src="/images/quicka1.png" 
+              alt="Quicka Nig Ltd Logo" 
+              width={150} 
+              height={50} 
+              className="w-[100px] h-auto object-contain"
+            />
+          </Link>
           <p className="text-gray-400 text-sm leading-relaxed">
             Quicka Nig Ltd delivers seamless cross-border freight transport and bespoke business solutions. Operating at the highest level of execution, we connect your enterprise to the global marketplace with absolute reliability.
           </p>
@@ -49,7 +50,7 @@ export default function Footer() {
             </div>
             <div className="flex items-center gap-3">
               <Phone className="w-5 h-5 text-brand-primary flex-shrink-0" />
-              <span className="text-gray-400">+234 (000) 000-0000</span>
+              <span className="text-gray-400">+234 813 885 3645</span>
             </div>
             <div>
               <div className="font-bold text-white mb-1">Open Hours:</div>

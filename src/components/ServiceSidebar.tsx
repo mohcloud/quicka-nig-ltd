@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { ArrowRight, FileText } from "lucide-react";
+import Image from "next/image";
 
 export default function ServiceSidebar() {
   const pathname = usePathname();
@@ -47,13 +48,19 @@ export default function ServiceSidebar() {
       <div className="bg-brand-primary text-white p-8 rounded-md text-center relative overflow-hidden flex flex-col items-center">
         <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/world-map.png')] opacity-20"></div>
         <div className="relative z-10 flex flex-col items-center">
-          <div className="w-16 h-16 bg-white flex items-center justify-center mb-6 shadow-lg">
-             <span className="text-3xl font-black text-brand-accent">Q</span>
+          <div className="bg-white rounded p-2 mb-6 shadow-lg inline-block">
+            <Image 
+              src="/images/quicka1.png" 
+              alt="Quicka Nig Ltd Logo" 
+              width={100} 
+              height={40} 
+              className="w-[80px] h-auto object-contain"
+            />
           </div>
           <h3 className="text-2xl font-bold mb-6 drop-shadow-sm leading-tight">
             Get an easy quotation for your industry
           </h3>
-          <Link href="/contact" className="bg-white text-brand-accent font-bold py-3 px-8 rounded hover:text-brand-primary transition-colors inline-block">
+          <Link href="/contact#contact-form" className="bg-white text-brand-accent font-bold py-3 px-8 rounded hover:text-brand-primary transition-colors inline-block">
             Contact Now
           </Link>
         </div>
@@ -62,7 +69,7 @@ export default function ServiceSidebar() {
       {/* Download Box */}
       <div className="bg-[#F8F9FA] p-8 rounded-md border border-gray-100">
         <h3 className="text-xl font-extrabold text-brand-accent mb-6">Download Now</h3>
-        <a href="#" className="flex items-center justify-between p-4 bg-white border border-gray-100 rounded hover:shadow-md transition-shadow group">
+        <a href="/company-profile.pdf" download="Company_Profile.pdf" className="flex items-center justify-between p-4 bg-white border border-gray-100 rounded hover:shadow-md transition-shadow group">
           <div className="flex items-center gap-3">
             <span className="text-[13px] text-gray-500 font-semibold group-hover:text-brand-primary transition-colors">Company Profile (PDF)</span>
             <span className="text-[11px] text-gray-400 font-bold">(12MB)</span>

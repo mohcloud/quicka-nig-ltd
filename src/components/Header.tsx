@@ -5,6 +5,7 @@ import { Phone, Mail, MapPin, X, ChevronDown } from "lucide-react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { Button } from "@/components/ui/button";
+import Image from "next/image";
 
 export default function Header() {
   const pathname = usePathname();
@@ -39,7 +40,7 @@ export default function Header() {
           </div>
           <div className="flex flex-col leading-tight pt-1">
             <span className="text-[11px] font-bold text-gray-500">Get In Touch</span>
-            <span className="font-extrabold text-[15px] text-brand-accent tracking-tight">+(234) 806 513 3030</span>
+            <span className="font-extrabold text-[15px] text-brand-accent tracking-tight">+234 813 885 3645</span>
           </div>
         </div>
       </div>
@@ -49,15 +50,15 @@ export default function Header() {
 
         {/* Left Side: Logo & Slash */}
         <div className="flex items-center h-full">
-          <Link href="/" className="flex items-center gap-2 sm:gap-3 mr-2 sm:mr-8 cursor-pointer group">
-            <div className="w-[40px] h-[40px] sm:w-[50px] sm:h-[50px] bg-white rounded flex items-center justify-center text-brand-accent font-bold text-2xl sm:text-3xl overflow-hidden relative shadow-inner flex-shrink-0">
-              <div className="absolute inset-1 border-[1.5px] border-brand-accent rounded-sm opacity-30"></div>
-              <span className="relative z-10 font-black">Q</span>
-            </div>
-            <div className="flex flex-col">
-              <span className="font-extrabold text-[16px] sm:text-[22px] leading-none tracking-tight">QUICKA NIG LTD</span>
-              <span className="text-[7px] sm:text-[9px] uppercase tracking-[0.1em] sm:tracking-[0.2em] font-semibold text-gray-300 mt-1">International Logistics</span>
-            </div>
+          <Link href="/" className="flex items-center mr-2 sm:mr-8 cursor-pointer group">
+            <Image 
+              src="/images/quicka1.png" 
+              alt="Quicka Nig Ltd Logo" 
+              width={150} 
+              height={50} 
+              className="w-[70px] sm:w-[100px] h-auto object-contain bg-white rounded-md p-1"
+              priority
+            />
           </Link>
 
           {/* Slanted separator line for the Main Nav */}
@@ -141,11 +142,14 @@ export default function Header() {
       {isMobileMenuOpen && (
         <div className="fixed inset-0 bg-brand-accent/95 z-[100] flex flex-col pt-6 pb-6 px-4 overflow-y-auto lg:hidden backdrop-blur-md transition-all">
           <div className="flex justify-between items-center mb-8">
-            <Link href="/" className="flex items-center gap-2" onClick={() => setIsMobileMenuOpen(false)}>
-              <div className="w-10 h-10 bg-white rounded flex items-center justify-center text-brand-accent font-bold text-2xl">
-                <span className="font-black">Q</span>
-              </div>
-              <span className="font-extrabold text-[18px] leading-none tracking-tight text-white">QUICKA NIG LTD</span>
+            <Link href="/" onClick={() => setIsMobileMenuOpen(false)} className="bg-white rounded-md p-1">
+              <Image 
+                src="/images/quicka1.png" 
+                alt="Quicka Nig Ltd Logo" 
+                width={120} 
+                height={40} 
+                className="w-[70px] h-auto object-contain"
+              />
             </Link>
             <Button
               variant="ghost"

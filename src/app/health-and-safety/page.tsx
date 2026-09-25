@@ -1,6 +1,8 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import Cta from "@/components/Cta";
+import Link from "next/link";
+import Image from "next/image";
 
 export default function HealthAndSafetyPage() {
   return (
@@ -74,17 +76,23 @@ export default function HealthAndSafetyPage() {
             <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/connected.png')] opacity-20"></div>
             
             <div className="relative z-10 flex flex-col items-center">
-              <div className="w-20 h-20 bg-white shadow-lg flex items-center justify-center mb-8 rotate-45">
-                <span className="text-3xl font-black text-brand-accent -rotate-45">Q</span>
+              <div className="bg-white rounded p-2 mb-8 shadow-lg inline-block rotate-0">
+                <Image 
+                  src="/images/quicka1.png" 
+                  alt="Quicka Nig Ltd Logo" 
+                  width={100} 
+                  height={40} 
+                  className="w-[80px] h-auto object-contain"
+                />
               </div>
               
               <h3 className="text-white text-3xl font-extrabold mb-8 leading-tight drop-shadow-md">
                 Get an easy quotation for your industry
               </h3>
               
-              <button className="bg-white text-brand-accent hover:text-brand-primary hover:bg-gray-50 transition-colors font-extrabold px-8 py-4 rounded-md shadow-lg w-full max-w-[250px] uppercase tracking-wide">
+              <Link href="/contact#contact-form" className="bg-white text-brand-accent hover:text-brand-primary hover:bg-gray-50 transition-colors font-extrabold px-8 py-4 rounded-md shadow-lg w-full max-w-[250px] uppercase tracking-wide inline-block">
                 Contact Now
-              </button>
+              </Link>
             </div>
           </div>
         </div>
