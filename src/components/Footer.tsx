@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export default function Footer() {
   return (
-    <footer className="bg-brand-accent text-white pt-20 pb-10 px-4 relative overflow-hidden">
+    <footer className="bg-brand-accent text-white pt-12 pb-10 px-4 relative overflow-hidden border-t border-white/10">
       {/* Background graphic */}
       <div className="absolute right-0 bottom-0 w-[800px] h-[800px] bg-brand-primary/20 rounded-full blur-3xl -z-10 translate-x-1/2 translate-y-1/2"></div>
 
@@ -12,9 +12,9 @@ export default function Footer() {
 
         {/* Brand Col */}
         <div className="flex flex-col gap-6">
-          <Link href="/" className="inline-block bg-white p-2 rounded-md w-max">
+          <Link href="/" className="inline-block w-max">
             <Image 
-              src="/images/quicka1.png" 
+              src="/images/quicka2.png" 
               alt="Quicka Nig Ltd Logo" 
               width={150} 
               height={50} 
@@ -46,7 +46,7 @@ export default function Footer() {
           <div className="flex flex-col gap-6 text-sm">
             <div className="flex items-start gap-3">
               <MapPin className="w-5 h-5 text-brand-primary mt-0.5 flex-shrink-0" />
-              <span className="text-gray-400">123 Global Avenue, Commercial District, Lagos, Nigeria</span>
+              <span className="text-gray-400">No 5, Location Road off Boskel road Elelenwo, obioakpor LGA, Port Harcourt, Rivers State, Nigeria.</span>
             </div>
             <div className="flex items-center gap-3">
               <Phone className="w-5 h-5 text-brand-primary flex-shrink-0" />

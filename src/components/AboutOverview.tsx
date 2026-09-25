@@ -37,9 +37,9 @@ export default function AboutOverview() {
              />
              {/* Center Logo Box */}
              <div className="absolute inset-0 flex items-center justify-center z-10">
-                <div className="bg-white/90 backdrop-blur-sm shadow-xl flex items-center justify-center transform border border-gray-100 p-2 rounded">
+                <div className="flex items-center justify-center transform drop-shadow-lg">
                    <Image 
-                     src="/images/quicka1.png" 
+                     src="/images/quicka2.png" 
                      alt="Quicka Nig Ltd Logo" 
                      width={100} 
                      height={40} 

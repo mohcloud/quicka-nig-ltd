@@ -39,7 +39,7 @@ export default function ContactPage() {
               <div>
                 <h3 className="text-xl font-bold text-brand-accent mb-2">Office address</h3>
                 <p className="text-gray-500 text-sm leading-relaxed">
-                  KM 25 Aleto Farm road by industrial layout, Eleme LGA, Rivers.
+                  No 5, Location Road off Boskel road Elelenwo, obioakpor LGA, Port Harcourt, Rivers State, Nigeria.
                 </p>
               </div>
             </div>

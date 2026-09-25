@@ -11,7 +11,7 @@ const slides = [
   },
   {
     title: "Road Haulage",
-    image: "/images/logistic.jpg",
+    image: "/images/ship1.jpg",
   },
   {
     title: "Freight Forwarding",

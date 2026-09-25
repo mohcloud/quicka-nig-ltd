@@ -26,7 +26,7 @@ export default function Header() {
           </div>
           <div className="flex items-center gap-2 hover:text-white/80 transition-colors cursor-pointer">
             <MapPin className="w-4 h-4" />
-            <span className="hidden sm:inline">123 Global Avenue, Commercial District, Lagos, Nigeria</span>
+            <span className="hidden sm:inline">No 5, Location Road off Boskel road Elelenwo, obioakpor LGA, Port Harcourt, Rivers State, Nigeria.</span>
           </div>
         </div>
 
@@ -52,7 +52,7 @@ export default function Header() {
         <div className="flex items-center h-full">
           <Link href="/" className="flex items-center mr-2 sm:mr-8 cursor-pointer group">
             <Image 
-              src="/images/quicka1.png" 
+              src="/images/quicka2.png" 
               alt="Quicka Nig Ltd Logo" 
               width={150} 
               height={50} 
@@ -142,9 +142,9 @@ export default function Header() {
       {isMobileMenuOpen && (
         <div className="fixed inset-0 bg-brand-accent/95 z-[100] flex flex-col pt-6 pb-6 px-4 overflow-y-auto lg:hidden backdrop-blur-md transition-all">
           <div className="flex justify-between items-center mb-8">
-            <Link href="/" onClick={() => setIsMobileMenuOpen(false)} className="bg-white rounded-md p-1">
+            <Link href="/" onClick={() => setIsMobileMenuOpen(false)}>
               <Image 
-                src="/images/quicka1.png" 
+                src="/images/quicka2.png" 
                 alt="Quicka Nig Ltd Logo" 
                 width={120} 
                 height={40} 

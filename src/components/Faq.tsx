@@ -65,7 +65,7 @@ export default function Faq() {
           </h2>
           
           <div className="flex flex-col gap-6 mt-8">
-            <div className="bg-white p-8 rounded-xl shadow-lg border border-gray-100 flex flex-col items-start gap-4 transform transition-transform hover:-translate-y-1">
+            <div className="bg-white p-8 rounded-xl border border-gray-100 flex flex-col items-start gap-4 transform transition-transform hover:-translate-y-1">
               <div className="p-3 bg-orange-50 rounded-lg text-brand-primary">
                 <Package className="w-8 h-8" />
               </div>
@@ -75,7 +75,7 @@ export default function Faq() {
               </p>
             </div>
             
-            <div className="bg-white p-8 rounded-xl shadow-lg border border-gray-100 flex flex-col items-start gap-4 transform transition-transform hover:-translate-y-1">
+            <div className="bg-white p-8 rounded-xl border border-gray-100 flex flex-col items-start gap-4 transform transition-transform hover:-translate-y-1">
               <div className="p-3 bg-orange-50 rounded-lg text-brand-primary">
                 <ShieldCheck className="w-8 h-8" />
               </div>

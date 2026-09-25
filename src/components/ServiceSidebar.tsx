@@ -48,9 +48,9 @@ export default function ServiceSidebar() {
       <div className="bg-brand-primary text-white p-8 rounded-md text-center relative overflow-hidden flex flex-col items-center">
         <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/world-map.png')] opacity-20"></div>
         <div className="relative z-10 flex flex-col items-center">
-          <div className="bg-white rounded p-2 mb-6 shadow-lg inline-block">
+          <div className="mb-6 inline-block">
             <Image 
-              src="/images/quicka1.png" 
+              src="/images/quicka2.png" 
               alt="Quicka Nig Ltd Logo" 
               width={100} 
               height={40} 

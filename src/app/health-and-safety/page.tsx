@@ -76,9 +76,9 @@ export default function HealthAndSafetyPage() {
             <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/connected.png')] opacity-20"></div>
             
             <div className="relative z-10 flex flex-col items-center">
-              <div className="bg-white rounded p-2 mb-8 shadow-lg inline-block rotate-0">
+              <div className="mb-8 inline-block rotate-0 drop-shadow-md">
                 <Image 
-                  src="/images/quicka1.png" 
+                  src="/images/quicka2.png" 
                   alt="Quicka Nig Ltd Logo" 
                   width={100} 
                   height={40} 
