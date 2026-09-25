@@ -78,7 +78,7 @@ export default function HealthAndSafetyPage() {
             <div className="relative z-10 flex flex-col items-center">
               <div className="mb-8 inline-block rotate-0 drop-shadow-md">
                 <Image 
-                  src="/images/Quicka2.svg" 
+                  src="/images/Quicka3.svg" 
                   alt="Quicka Nig Ltd Logo" 
                   width={100} 
                   height={40} 

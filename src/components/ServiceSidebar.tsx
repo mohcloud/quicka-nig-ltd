@@ -50,7 +50,7 @@ export default function ServiceSidebar() {
         <div className="relative z-10 flex flex-col items-center">
           <div className="mb-6 inline-block">
             <Image 
-              src="/images/Quicka2.svg" 
+              src="/images/Quicka3.svg" 
               alt="Quicka Nig Ltd Logo" 
               width={100} 
               height={40} 
