@@ -8,7 +8,7 @@ export default function HealthAndSafetyPage() {
   return (
     <main className="min-h-screen bg-brand-light font-sans">
       <Header />
-      
+
       {/* Page Header */}
       <div className="relative text-white py-24 md:py-32 px-4 overflow-hidden flex items-center justify-center">
         <div className="absolute inset-0 bg-cover bg-center bg-no-repeat z-0" style={{ backgroundImage: "url('/images/safety.jpg')" }}></div>
@@ -25,17 +25,17 @@ export default function HealthAndSafetyPage() {
 
       {/* Main Content */}
       <div className="max-w-7xl mx-auto px-4 py-20 flex flex-col lg:flex-row gap-10">
-        
+
         {/* Left Column: Cards */}
         <div className="lg:w-2/3 flex flex-col gap-10">
-          
+
           {/* Card 1 */}
           <div className="bg-white rounded-md shadow-md overflow-hidden border border-gray-100">
             <div className="w-full h-64 sm:h-80 bg-cover bg-center" style={{ backgroundImage: "url('/images/safety.jpg')" }}></div>
             <div className="p-8 md:p-10">
               <h2 className="text-2xl md:text-3xl font-extrabold text-brand-accent mb-4">Uncompromising Commitment to Safety</h2>
               <p className="text-gray-600 leading-relaxed mb-4">
-                At Quicka International Limited, industry-leading safety performance is the absolute cornerstone of our operations. We believe that every logistical success begins with a secure, hazard-free environment. 
+                At Quicka International Limited, industry-leading safety performance is the absolute cornerstone of our operations. We believe that every logistical success begins with a secure, hazard-free environment.
               </p>
               <ul className="list-disc pl-5 text-gray-600 flex flex-col gap-2 mb-4">
                 <li><strong>Behavior-Based Safety:</strong> Our initiatives are deeply ingrained in our corporate culture, transforming safety from a policy into a daily way of life.</li>
@@ -74,23 +74,23 @@ export default function HealthAndSafetyPage() {
           <div className="bg-brand-primary relative overflow-hidden rounded-md shadow-xl text-center p-10 py-16 flex flex-col items-center justify-center">
             {/* World Map Background (Subtle) */}
             <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/connected.png')] opacity-20"></div>
-            
+
             <div className="relative z-10 flex flex-col items-center">
               <div className="mb-8 inline-block rotate-0 drop-shadow-md">
-                <Image 
-                  src="/images/Quicka3.svg" 
-                  alt="Quicka Nig Ltd Logo" 
-                  width={100} 
-                  height={40} 
+                <Image
+                  src="/images/Quicka3.svg"
+                  alt="Quicka Nig Ltd Logo"
+                  width={100}
+                  height={40}
                   className="w-[80px] h-auto object-contain"
                   unoptimized
                 />
               </div>
-              
+
               <h3 className="text-white text-3xl font-extrabold mb-8 leading-tight drop-shadow-md">
                 Get an easy quotation for your industry
               </h3>
-              
+
               <Link href="/contact#contact-form" className="bg-white text-brand-accent hover:text-brand-primary hover:bg-gray-50 transition-colors font-extrabold px-8 py-4 rounded-md shadow-lg w-full max-w-[250px] uppercase tracking-wide inline-block">
                 Contact Now
               </Link>
@@ -99,7 +99,7 @@ export default function HealthAndSafetyPage() {
         </div>
 
       </div>
-      
+
       <Cta />
       <Footer />
     </main>

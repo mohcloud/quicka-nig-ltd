@@ -30,11 +30,10 @@ export default function ServiceSidebar() {
               <Link
                 key={index}
                 href={service.path}
-                className={`flex items-center justify-between p-4 rounded bg-white border border-gray-100 transition-colors ${
-                  isActive
+                className={`flex items-center justify-between p-4 rounded bg-white border border-gray-100 transition-colors ${isActive
                     ? "text-white bg-brand-accent border-brand-accent"
                     : "text-brand-accent hover:text-brand-primary"
-                }`}
+                  }`}
               >
                 <span className="font-bold text-[14px]">{service.name}</span>
                 <ArrowRight className={`w-4 h-4 ${isActive ? "text-white" : "text-brand-primary"}`} strokeWidth={3} />
@@ -49,11 +48,11 @@ export default function ServiceSidebar() {
         <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/world-map.png')] opacity-20"></div>
         <div className="relative z-10 flex flex-col items-center">
           <div className="mb-6 inline-block">
-            <Image 
-              src="/images/Quicka3.svg" 
-              alt="Quicka Nig Ltd Logo" 
-              width={100} 
-              height={40} 
+            <Image
+              src="/images/Quicka3.svg"
+              alt="Quicka Nig Ltd Logo"
+              width={100}
+              height={40}
               className="w-[80px] h-auto object-contain"
               unoptimized
             />

@@ -13,11 +13,11 @@ export default function Footer() {
         {/* Brand Col */}
         <div className="flex flex-col gap-6">
           <Link href="/" className="inline-block w-max">
-            <Image 
-              src="/images/Quicka3.svg" 
-              alt="Quicka Nig Ltd Logo" 
-              width={150} 
-              height={50} 
+            <Image
+              src="/images/Quicka3.svg"
+              alt="Quicka Nig Ltd Logo"
+              width={150}
+              height={50}
               className="w-[100px] h-auto object-contain"
             />
           </Link>

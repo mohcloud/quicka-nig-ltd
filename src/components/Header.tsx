@@ -51,11 +51,11 @@ export default function Header() {
         {/* Left Side: Logo & Slash */}
         <div className="flex items-center h-full">
           <Link href="/" className="flex items-center mr-2 sm:mr-8 cursor-pointer group">
-            <Image 
-              src="/images/Quicka3.svg" 
-              alt="Quicka Nig Ltd Logo" 
-              width={150} 
-              height={50} 
+            <Image
+              src="/images/Quicka3.svg"
+              alt="Quicka Nig Ltd Logo"
+              width={150}
+              height={50}
               className="w-[70px] sm:w-[100px] h-auto object-contain"
               priority
               unoptimized
@@ -144,11 +144,11 @@ export default function Header() {
         <div className="fixed inset-0 bg-brand-accent/95 z-[100] flex flex-col pt-6 pb-6 px-4 overflow-y-auto lg:hidden backdrop-blur-md transition-all">
           <div className="flex justify-between items-center mb-8">
             <Link href="/" onClick={() => setIsMobileMenuOpen(false)}>
-              <Image 
-                src="/images/Quicka3.svg" 
-                alt="Quicka Nig Ltd Logo" 
-                width={120} 
-                height={40} 
+              <Image
+                src="/images/Quicka3.svg"
+                alt="Quicka Nig Ltd Logo"
+                width={120}
+                height={40}
                 className="w-[70px] h-auto object-contain"
                 unoptimized
               />
