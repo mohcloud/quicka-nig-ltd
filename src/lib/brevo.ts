@@ -10,8 +10,8 @@ export async function sendContactEmail(data: ContactFormData) {
   if (apiKey && !apiKey.startsWith("xkeysib-") && apiKey.length > 40) {
     apiKey = `xkeysib-${apiKey}`;
   }
-  const senderEmail = process.env.BREVO_SENDER_EMAIL || "info@quickanigeria.com";
-  const senderName = process.env.BREVO_SENDER_NAME || "Quicka Nig Ltd";
+  const senderEmail = "info@quickanigeria.com";
+  const senderName = "Quicka Nig Ltd";
   const receiverEmail = "abukamsulum01@gmail.com";
 
   if (!apiKey) {
