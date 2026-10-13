@@ -47,7 +47,10 @@ export async function sendContactEmail(data: ContactFormData) {
     <body>
       <div class="container">
         <div class="header">
-          <h1>QUICKA NIGERIA LTD</h1>
+          <a href="https://www.quickanigeria.com" target="_blank" style="text-decoration: none; display: inline-block;">
+            <img src="https://www.quickanigeria.com/images/quicka1.png" alt="Quicka Nigeria Ltd" style="height: 55px; width: auto; max-width: 100%; display: block; margin: 0 auto 10px auto; border: 0;" />
+          </a>
+          <h1 style="color: #ffffff; margin: 0; font-size: 18px; font-weight: 700; letter-spacing: 0.5px;">QUICKA NIGERIA LTD</h1>
         </div>
         <div class="content">
           <div class="badge">New Contact Inquiry</div>
