@@ -8,7 +8,7 @@ export interface ContactFormData {
 export async function sendContactEmail(data: ContactFormData) {
   const apiKey = process.env.BREVO_API_KEY;
   const senderEmail = process.env.BREVO_SENDER_EMAIL || "mohammed_techconcept@outlook.com";
-  const senderName = process.env.BREVO_SENDER_NAME || "Quicka Nigeria Ltd";
+  const senderName = process.env.BREVO_SENDER_NAME || "Quicka Nig Ltd";
   const receiverEmail = process.env.CONTACT_RECEIVER_EMAIL || "abukamsulum01@gmail.com";
 
   if (!apiKey) {
