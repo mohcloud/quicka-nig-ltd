@@ -65,9 +65,7 @@ export async function POST(request: NextRequest) {
     return NextResponse.json(
       {
         success: false,
-        error: errorMessage.includes("BREVO_API_KEY")
-          ? "Email service is temporarily misconfigured. Please contact us directly via phone or email."
-          : "Could not send your message at this time. Please try again later.",
+        error: errorMessage,
       },
       { status: 500 }
     );
