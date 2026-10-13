@@ -7,9 +7,9 @@ export interface ContactFormData {
 
 export async function sendContactEmail(data: ContactFormData) {
   const apiKey = process.env.BREVO_API_KEY;
-  const senderEmail = process.env.BREVO_SENDER_EMAIL || "info@quickanig.com";
-  const senderName = process.env.BREVO_SENDER_NAME || "Quicka Nigeria Ltd Website";
-  const receiverEmail = process.env.CONTACT_RECEIVER_EMAIL || "info@quickanig.com";
+  const senderEmail = process.env.BREVO_SENDER_EMAIL || "mohammed_techconcept@outlook.com";
+  const senderName = process.env.BREVO_SENDER_NAME || "Quicka Nigeria Ltd";
+  const receiverEmail = process.env.CONTACT_RECEIVER_EMAIL || "abukamsulum01@gmail.com";
 
   if (!apiKey) {
     throw new Error("BREVO_API_KEY is not configured in environment variables.");
