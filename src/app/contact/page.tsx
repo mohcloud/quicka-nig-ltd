@@ -1,6 +1,7 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import Cta from "@/components/Cta";
+import ContactForm from "@/components/ContactForm";
 import { MapPin, Phone, Mail } from "lucide-react";
 
 export default function ContactPage() {
@@ -73,43 +74,7 @@ export default function ContactPage() {
         </div>
 
         {/* Right Column: Contact Form */}
-        <div id="contact-form" className="lg:w-1/2 bg-white p-10 rounded-md border border-gray-100 shadow-sm flex flex-col justify-center">
-          <h2 className="text-3xl font-extrabold text-brand-accent mb-8 text-center">Write Us A Message</h2>
-          
-          <form className="flex flex-col gap-6">
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-              <input 
-                type="text" 
-                placeholder="Your Name" 
-                className="w-full bg-[#F8F9FA] border border-gray-200 rounded p-4 text-gray-700 focus:outline-none focus:border-brand-primary focus:ring-1 focus:ring-brand-primary transition-all"
-              />
-              <input 
-                type="text" 
-                placeholder="Number" 
-                className="w-full bg-[#F8F9FA] border border-gray-200 rounded p-4 text-gray-700 focus:outline-none focus:border-brand-primary focus:ring-1 focus:ring-brand-primary transition-all"
-              />
-            </div>
-            
-            <input 
-              type="email" 
-              placeholder="Your Email" 
-              className="w-full bg-[#F8F9FA] border border-gray-200 rounded p-4 text-gray-700 focus:outline-none focus:border-brand-primary focus:ring-1 focus:ring-brand-primary transition-all"
-            />
-            
-            <textarea 
-              placeholder="Your Message" 
-              rows={6}
-              className="w-full bg-[#F8F9FA] border border-gray-200 rounded p-4 text-gray-700 focus:outline-none focus:border-brand-primary focus:ring-1 focus:ring-brand-primary transition-all resize-none"
-            ></textarea>
-            
-            <button 
-              type="button" 
-              className="w-full bg-brand-primary hover:bg-orange-600 text-white font-bold py-4 rounded transition-colors text-lg"
-            >
-              Submit
-            </button>
-          </form>
-        </div>
+        <ContactForm />
 
       </div>
       
