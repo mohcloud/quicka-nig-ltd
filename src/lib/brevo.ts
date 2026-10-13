@@ -12,7 +12,7 @@ export async function sendContactEmail(data: ContactFormData) {
   }
   const senderEmail = "info@quickanigeria.com";
   const senderName = "Quicka Nig Ltd";
-  const receiverEmail = "abukamsulum01@gmail.com";
+  const receiverEmail = "mohammed_techconcept@outlook.com";
 
   if (!apiKey) {
     throw new Error("BREVO_API_KEY is not configured in environment variables.");
